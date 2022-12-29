@@ -19,6 +19,6 @@ app.use(express.static(staticPath));
 // app.use(express.static(digiclock));
 
 //Starting the server
-app.listen("3000", () => {
-  console.log("listening to port 3000");
+app.listen("8000", () => {
+  console.log("listening to port 8000");
 });
